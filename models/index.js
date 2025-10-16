@@ -32,7 +32,7 @@ const syncDatabase = async() => {
 };
 
 // Export all models and database utilities
-module.export = {
+module.exports = {
     // Post model
     Post,
     // Function to sync db schema

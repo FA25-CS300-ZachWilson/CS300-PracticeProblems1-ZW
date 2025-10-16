@@ -84,8 +84,8 @@ const startServer = async () => {
     
     // Step 3: Start listening for HTTP requests
     app.listen(PORT, () => {
-      console.log(`✓ Server is running on port ${PORT}`);
-      console.log(`✓ API available at http://localhost:${PORT}/api/posts`);
+      console.log(`Server is running on port ${PORT}`);
+      console.log(`API available at http://localhost:${PORT}/api/posts`);
     });
   } catch (error) {
     // If startup fails, log error and exit process
